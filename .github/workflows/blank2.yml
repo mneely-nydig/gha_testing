@@ -30,7 +30,5 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Invoke workflow without inputs
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: CI 2
+      - name: Test Action
+        uses: buf-setup-action@2bd65419f0264d12e114649664d7f86966fd9c90
