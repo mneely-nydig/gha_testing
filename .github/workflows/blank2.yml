@@ -31,4 +31,5 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Test Action
-        uses: buf-setup-action@2bd65419f0264d12e114649664d7f86966fd9c90
+        uses: bufbuild/buf-setup-action@2bd65419f0264d12e114649664d7f86966fd9c90
+        
