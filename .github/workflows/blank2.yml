@@ -32,4 +32,5 @@ jobs:
 
       - name: Test Action
         uses: peter-murray/setup-detekt@0b43f17288ecd07eb959696d4302b73bb5659b44
-        
+        with:
+          detekt_version: '1.22.0'
